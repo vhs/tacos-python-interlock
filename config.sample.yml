@@ -1,0 +1,15 @@
+tacos:
+  server:
+    api: https://tacos.vanhack.ca
+    device_id: python-test
+  input:
+    arm:
+      pin: 4
+  leds:
+    status:
+      pin: 23
+    error:
+      pin: 24
+  outputs:
+    tool:
+      pin: 17
